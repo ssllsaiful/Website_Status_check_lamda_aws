@@ -72,10 +72,12 @@ step: 3
 
 //////////////////////////////
 ////////////////////////////
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
+code
+
+  {
+   "Version": "2012-10-17",
+   "Statement": [
+     {
       "Effect": "Allow",
       "Action": "sns:Publish",
       "Resource": "*"
@@ -88,9 +90,9 @@ put this to  IAM role inline policy
 
 
 
-Step : 4 :
+Step : 4 
 
-   Crete folder :
+   Crete folder
 
    create a new folder  to you local machine 
    cerate  lambda_function.py and requirement.txt 
