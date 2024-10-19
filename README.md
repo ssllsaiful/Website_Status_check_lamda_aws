@@ -89,7 +89,7 @@ Crete folder
    after install packages  cretea a zip files for this 
    then  go back to lamada that is craeted some time erliar 
    then upload this zip file 
-    then create a test   file 
+   then create a test   file 
     and test the code if got any erro copy and past chatgpt or other to solve tthis 
     after successfully run the code you will see a message and  check added emains 
 
@@ -100,13 +100,13 @@ step : 5
 Create schedule to run this python code  every 30m after . 
 
 step 6 
- setup  triger/ schedule 
- create  trigger from lamda function
- create a role 
- set crontab /timer  ex: rate(30 minutes) 
- then select terget  
+   setup  triger/ schedule 
+   create  trigger from lamda function
+   create a role 
+   set crontab /timer  ex: rate(30 minutes) 
+   then select terget  
 
- check  this  script ,,
+  check  this  script ,,
 
 
 
