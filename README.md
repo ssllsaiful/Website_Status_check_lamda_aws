@@ -22,7 +22,7 @@ Check all website statsu and if down  send sns service
 
 
 step: 1 
-   Set Up Amazon SNS
+   Set Up Amazon SNS:
    Click on Topics in the left sidebar.
    Click on Create topic.
    Choose Standard as the type.
@@ -74,9 +74,9 @@ put this to  IAM role inline policy
 
 
 
-Step : 4
+Step : 4 :
 
-Crete folder 
+Crete folder :
 
    create a new folder  to you local machine 
    cerate  lambda_function.py and requirement.txt 
@@ -94,12 +94,13 @@ Crete folder
     after successfully run the code you will see a message and  check added emains 
 
 
-step : 5 
+step : 5 :
 
 
-Create schedule to run this python code  every 30m after . 
+Create schedule to run this python code  every 30m after : 
 
-step 6 
+step 6 :
+
    setup  triger/ schedule 
    create  trigger from lamda function
    create a role 
@@ -107,6 +108,9 @@ step 6
    then select terget  
 
   check  this  script ,,
+
+
+  finish
 
 
 
