@@ -35,6 +35,7 @@ Check all website statsu and if down  send sns service
 
 
 step: 1 
+
    Set Up Amazon SNS:
    Click on Topics in the left sidebar.
    Click on Create topic.
@@ -55,7 +56,7 @@ step: 2
 
 step: 3
 
-Create a New Function:
+    Create a New Function:
     Click on Create function.
     Choose Author from scratch.
     Enter a name for your function (e.g., WebsiteStatusChecker).
@@ -89,7 +90,7 @@ put this to  IAM role inline policy
 
 Step : 4 :
 
-Crete folder :
+   Crete folder :
 
    create a new folder  to you local machine 
    cerate  lambda_function.py and requirement.txt 
@@ -107,23 +108,22 @@ Crete folder :
     after successfully run the code you will see a message and  check added emains 
 
 
-step : 5 :
+step : 5
 
-
-Create schedule to run this python code  every 30m after : 
+    Create schedule to run this python code  every 30m after : 
 
 step 6 :
+ 
+    setup  triger/ schedule 
+    create  trigger from lamda function
+    create a role 
+    set crontab /timer  ex: rate(30 minutes) 
+    then select terget  
 
-   setup  triger/ schedule 
-   create  trigger from lamda function
-   create a role 
-   set crontab /timer  ex: rate(30 minutes) 
-   then select terget  
-
-  check  this  script ,,
+    check  this  script ,,
 
 
-  finish
+    finish
 
 
 
