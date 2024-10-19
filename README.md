@@ -98,3 +98,16 @@ step : 5
 
 
 Create schedule to run this python code  every 30m after . 
+
+step 6 
+setup  triger/ schedule 
+create  trigger from lamda function
+create a role 
+set crontab /timer  ex: rate(30 minutes) 
+then select terget  
+
+check  this  script ,,
+
+
+
+
