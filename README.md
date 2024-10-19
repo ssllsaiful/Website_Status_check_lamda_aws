@@ -89,25 +89,24 @@ code
 put this to  IAM role inline policy
 
 
+Step 4 :
 
-Step : 4 
+    Crete folder
+    create a new folder  to you local machine 
+    cerate  lambda_function.py and requirement.txt 
+    past the code and requrentmt files into it 
+    for this only need request  
+    pip install requests -t .
+    or 
+    pip install --no-user -r requirements.txt -t . //for windows
 
-   Crete folder
+    after install packages  cretea a zip files for this 
 
-   create a new folder  to you local machine 
-   cerate  lambda_function.py and requirement.txt 
-   past the code and requrentmt files into it 
-   for this only need request  
-   pip install requests -t .
-   or 
-   pip install --no-user -r requirements.txt -t . //for windows
-
-   after install packages  cretea a zip files for this 
-   then  go back to lamada that is craeted some time erliar 
-   then upload this zip file 
-   then create a test   file 
-    and test the code if got any erro copy and past chatgpt or other to solve tthis 
-    after successfully run the code you will see a message and  check added emains 
+     then  go back to lamada that is craeted some time erliar 
+     then upload this zip file 
+     then create a test   file 
+     and test the code if got any erro copy and past chatgpt or other to solve tthis 
+     after successfully run the code you will see a message and  check added emains 
 
 
 step : 5
