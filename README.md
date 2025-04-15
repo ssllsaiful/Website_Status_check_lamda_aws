@@ -1,5 +1,32 @@
 
-Website Status Checker with AWS Lambda and SNS
+# Website Status Checker with AWS Lambda and SNS
+
+# Short Over View:
+   # Create an SNS TOPIC first on AWS 
+# add email-address for notification
+# add the SNS_TOPIC_ARN of this
+
+# If use domain security by any CDN add header to allw bot request
+
+# Run local machine
+    python3 -m venv env
+    source/script/active
+    pip install -r requrements.txt -t . //-t means terget . (dot means current DIR)
+
+
+    python file name must be names as (lamda_function.py)
+
+# Create Zip file
+    select all files then make them .zip file
+    goto lamda function  upload .zip to aws 
+    deploy funtion
+    test function 
+    
+
+
+
+# Details: 
+
 Overview:
 This Lambda function checks the status of websites and sends an Amazon SNS alert if any website is down. Below are the step-by-step instructions to set up the solution.
 
